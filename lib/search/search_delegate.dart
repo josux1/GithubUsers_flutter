@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:github_browse/models/user.dart';
-import 'package:github_browse/providers/users_providers.dart';
+import 'package:github_browse/repository/users_providers.dart';
 
 class DataSearch extends SearchDelegate {
   final userprovider = UsersProvider();

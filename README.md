@@ -1,16 +1,40 @@
-# github_browse
+# GitHub Users API
+Este proyecto nos ayuda a comprender el consumo de la API de github users, mediante el cliente HTTP. Con una implementacion básica de
 
-A new Flutter project.
+# Funciones principales
+- Consumo de API por medio de cliente HTTP
+- Parseo de respuesta json a modelo de clase custom
+- Manejo de UI simple para la busqueda de información
+- Manejo de SearchDelegate integrado en Flutter
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+### Arquitectura
+Este proyecto está hecho con la arquitectura simple para Flutter.
 
-A few resources to get you started if this is your first Flutter project:
+- Models
+- Pages
+- Repository
+- Search
+- Widgets
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Capa | Función |
+| ------ | ------ |
+| Models | Contiene todos los modelos de clases a partir de una respuesta json. |
+| Pages | Contiene todas las paginas de la aplicación.
+| Repository | Se encarga de géstionar todas las comunicaciones por peticiones http con los servicios que se le conecten.|
+| Search | Contiene todas las implementaciones de la clase SearchDelegate |
+| Widgets | Contiene todos los componentes(Widgets) personalizados.  |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Info Versionamiento
+
+- Si se desea cambiar la versión de la app, ir a:
+lib/core/global/config.dart
+
+- Instucción para cambiar ícono
+flutter pub run flutter_launcher_icons
+
+
+ Versón de Flutter
+• Flutter 3.16.0
+• Dart 3.2.0 
+• App Version 1.0.0
