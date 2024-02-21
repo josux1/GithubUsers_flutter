@@ -1,5 +1,5 @@
 # GitHub Users API
-Este proyecto nos ayuda a comprender el consumo de la API de github users, mediante el cliente HTTP. Con una implementacion básica de
+Este proyecto nos ayuda a comprender el consumo de la API de github users, mediante el cliente HTTP. Con una implementacion básica de UI.
 
 # Funciones principales
 - Consumo de API por medio de cliente HTTP
@@ -26,15 +26,7 @@ Este proyecto está hecho con la arquitectura simple para Flutter.
 | Widgets | Contiene todos los componentes(Widgets) personalizados.  |
 
 ### Info Versionamiento
-
-- Si se desea cambiar la versión de la app, ir a:
-lib/core/global/config.dart
-
-- Instucción para cambiar ícono
-flutter pub run flutter_launcher_icons
-
-
- Versón de Flutter
+ Versión de Flutter
 • Flutter 3.16.0
 • Dart 3.2.0 
 • App Version 1.0.0
